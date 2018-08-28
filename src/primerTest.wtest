@@ -1,0 +1,17 @@
+import empleados.*
+
+describe" gimenez sueldo baigorria deuda y dinero "{
+	test" sueldo"{ assert.equals(15000,gimenez.sueldo()) }
+	
+	test" dinero"{ assert.equals(0,baigorria.totalDinero()) }
+	
+	test" deudas"{ assert.equals(0,baigorria.totalDeudas()) }
+
+}	
+		
+describe"gastos"
+		test "deuda" { assert,baigorria.totalDeudas() ) }
+		
+		test "dinero" { assert.equals (0,baigorria.totalDinero() ) }
+	
+}
